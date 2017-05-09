@@ -1,0 +1,22 @@
+:root{
+    --bed-icon-background01:"\e9ab";
+    --header-status-icon01:"\e91f";
+    --content-left-icon01:"\e94a";
+    --content-left-icon02:"\e9e4";
+    --content-left-icon03:"\ea34";
+    --content-right-icon01:"\e93d";
+    --content-right-icon02:"\eae5";
+    --content-right-icon03:"\e9e8";
+    --footer-right-icon01:"\eaf1";
+    --footer-right-icon02:"\ea12";
+    --icons:{
+         font-family: 'icons' !important;
+         font-style: normal;
+         font-weight: normal;
+         font-variant: normal;
+         text-transform: none;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+     };
+}
+

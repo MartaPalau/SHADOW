@@ -1,0 +1,22 @@
+:root {
+  /*NONE*/
+  --pad-none:0;
+  /*SMALL*/
+  --pad-small:8px;
+  --pad-small-top: var(--pad-small);
+  --pad-small-left: var(--pad-small);
+  --pad-small-right: var(--pad-small);
+  --pad-small-bottom: var(--pad-small);
+  /*MEDIUM*/
+  --pad-medium:16px;
+  --pad-medium-top: var(--pad-medium);
+  --pad-medium-left: var(--pad-medium);
+  --pad-medium-right: var(--pad-medium);
+  --pad-medium-bottom: var(--pad-medium);
+  /*LARGE*/
+  --pad-large: 32px;
+  --pad-large-top: var(--pad-large);
+  --pad-large-left: var(--pad-large);
+  --pad-large-right: var(--pad-large);
+  --pad-large-bottom: var(--pad-large);
+}

@@ -1,0 +1,35 @@
+html [scroll-moz-bug],.scroll-moz-bug{
+  height:0px;
+}
+html [ellipse-moz-bug],.ellipse-moz-bug{
+  min-width:0px;
+}
+div:focus{//focus on chrome
+  outline-style: none;
+}
+textarea:focus{
+  outline-style: none;
+}
+input:focus{//focus on chrome
+  outline-style: none;
+}
+button:focus{//focus on chrome
+  outline-style: none;
+}
+input:-webkit-autofill {//autofill on chrome
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+input::selection{
+  background:var(--color-lightgrey-soft);
+  text-shadow: none;
+}
+html [pointer],.pointer {
+  cursor: pointer;
+}
+html [height-full],.height-full {
+  height:100%;
+}
+html [nowrap],.nowrap {
+  white-space: nowrap;
+}
+

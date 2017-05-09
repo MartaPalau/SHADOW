@@ -1,0 +1,21 @@
+.header__name{
+    color: var(--color-white);
+    font-size:var(--font14);
+    background-color:var(--color-lightgrey);
+    width:100%;
+    padding: 2px 0 2px 2px;
+}
+.header__name{
+    color: var(--color-white);
+    font-size:var(--font14);
+    background-color:var(--color-lightgrey);
+    width:100%;
+    padding: 2px 0 2px 2px;
+}
+.header__status {
+    padding: 2px 6px;
+}
+.header__status__elem{
+    font-size: 24px;
+    color: var(--color-lightgrey);
+}

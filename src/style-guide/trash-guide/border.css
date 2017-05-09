@@ -1,0 +1,156 @@
+:root {
+    --border-size : 1px;
+    --border-radius : 3px;
+}
+
+html [border-none], .border-none {
+    border: none
+}
+
+html [border__card], .border__card {
+    border: var(--border-size) solid var(--border-color);
+}
+
+html [border__card--top], .border__card--top {
+    border-top: var(--border-size) solid var(--border-color);
+}
+
+html [border-card-left], .border-card-left {
+    border-left: var(--border-size) solid var(--border-color);
+}
+
+html [border-card-right], .border-card-right {
+    border-right: var(--border-size) solid var(--border-color);
+}
+
+html [border__card--bottom], .border__card--bottom {
+    border-bottom: var(--border-size) solid var(--border-color);
+}
+
+html [border-card], .border-card {
+    border: var(--border-size) solid var(--border-color);
+}
+
+html [border-solid], .border-solid {
+    border: var(--border-size) solid var(--color-lightgrey);
+}
+
+html [border-solid], .border-solid {
+    border-top: var(--border-size) solid var(--color-lightgrey);
+}
+
+html [border-solid], .border-solid {
+    border-left: var(--border-size) solid var(--color-lightgrey);
+}
+
+html [border-solid], .border-solid {
+    border-right: var(--border-size) solid var(--color-lightgrey);
+}
+
+html [border-solid], .border-solid {
+    border-bottom: var(--border-size) solid var(--color-lightgrey);
+}
+
+html [border-dashed], .border-dashed {
+    border: var(--border-size) dashed var(--color-lightgrey);
+}
+
+html [border-dashed], .border-dashed {
+    border-top: var(--border-size) dashed var(--color-lightgrey);
+}
+
+html [border-dashed], .border-dashed {
+    border-left: var(--border-size) dashed var(--color-lightgrey);
+}
+
+html [border-dashed], .border-dashed {
+    border-right: var(--border-size) dashed var(--color-lightgrey);
+}
+
+html [border-dashed], .border-dashed {
+    border-bottom: var(--border-size) dashed var(--color-lightgrey);
+}
+
+html [border-dotted], .border-dotted {
+    border: var(--border-size) dotted var(--color-lightgrey);
+}
+
+html [border-dotted], .border-dotted {
+    border-top: var(--border-size) dotted var(--color-lightgrey);
+}
+
+html [border-dotted], .border-dotted {
+    border-left: var(--border-size) dotted var(--color-lightgrey);
+}
+
+html [border-dotted], .border-dotted {
+    border-right: var(--border-size) dotted var(--color-lightgrey);
+}
+
+html [border-dotted], .border-dotted {
+    border-bottom: var(--border-size) dotted var(--color-lightgrey);
+}
+
+html [border-main-color1], .border-maincolor1 {
+    border: var(--border-size) solid var(--color-main1);
+}
+
+html [border-main-color1-top], .border-maincolor1-top {
+    border-top: var(--border-size) solid var(--color-main1);
+}
+
+html [border-main-color1-left], .border-maincolor1-left {
+    border-left: var(--border-size) solid var(--color-main1);
+}
+
+html [border-main-color1-right], .border-maincolor1-right {
+    border-right: var(--border-size) solid var(--color-main1);
+}
+
+html [border-main-color1-bottom], .border-maincolor1-bottom {
+    border-bottom: var(--border-size) solid var(--color-main1);
+}
+
+html [border-main-color2], .border-maincolor2 {
+    border: var(--border-size) solid var(--color-main2);
+}
+
+html [border-main-color2-top], .border-maincolor2-top {
+    border-top: var(--border-size) solid var(--color-main2);
+}
+
+html [border-main-color2-left], .border-maincolor2-left {
+    border-left: var(--border-size) solid var(--color-main2);
+}
+
+html [border-main-color2-right], .border-maincolor2-right {
+    border-right: var(--border-size) solid var(--color-main2);
+}
+
+html [border-main-color2-bottom], .border-maincolor2-bottom {
+    border-bottom: var(--border-size) solid var(--color-main2);
+}
+
+html [border-red], .border-red {
+    border: var(--border-size) solid var(--color-danger);
+}
+
+html [border-red-top], .border-red-top {
+    border-top: var(--border-size) solid var(--color-danger);
+}
+
+html [border-red-left], .border-red-left {
+    border-left: var(--border-size) solid var(--color-danger);
+}
+
+html [border-red-right], .border-red-right {
+    border-right: var(--border-size) solid var(--color-danger);
+}
+
+html [border-red-bottom], .border-red-bottom {
+    border-bottom: var(--border-size) solid var(--color-danger);
+}
+
+html [border-small-radius], .border-small-radius {
+    border-radius: var(--border-radius);
+}

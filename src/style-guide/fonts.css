@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'icons';
+    src:  url('../fonts/icons.eot?lzqah0');
+    src:  url('../fonts/icons.eot?lzqah0#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?lzqah0') format('truetype'),
+    url('../fonts/icons.woff?lzqah0') format('woff'),
+    url('../fonts/icons.svg?lzqah0#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: roboto-italic;
+    src: url(../fonts/ROBOTO-family/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: roboto-thin;
+    src: url(../fonts/ROBOTO-family/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/ROBOTO-family/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-thin-italic;
+    src: url(../fonts/ROBOTO-family/Roboto-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../fonts/ROBOTO-family/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(../fonts/ROBOTO-family/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto-condensed;
+    src: url(../fonts/ROBOTO-family/Roboto-Condensed.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium-italic;
+    src: url(../fonts/ROBOTO-family/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-light-italic;
+    src: url(../fonts/ROBOTO-family/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-condensed-italic;
+    src: url(../fonts/ROBOTO-family/Roboto-CondensedItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(../fonts/ROBOTO-family/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url(../fonts/ROBOTO-family/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold-condensed;
+    src: url(../fonts/ROBOTO-family/Roboto-BoldCondensed.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold-italic;
+    src: url(../fonts/ROBOTO-family/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-black-italic;
+    src: url(../fonts/ROBOTO-family/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold-condensed-italic;
+    src: url(../fonts/ROBOTO-family/Roboto-BoldCondensedItalic.ttf);
+}

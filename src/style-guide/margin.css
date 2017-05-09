@@ -1,0 +1,22 @@
+:root {
+  /*NONE*/
+  --margin-none:0;
+/*SMALL*/
+  --margin-small:8px;
+  --margin-small-top: var(--margin-small);
+  --margin-small-left: var(--margin-small);
+  --margin-small-right: var(--margin-small);
+  --margin-small-bottom: var(--margin-small);
+/*MEDIUM*/
+  --margin-medium:16px;
+  --margin-medium-top: var(--margin-medium);
+  --margin-medium-left: var(--margin-medium);
+  --margin-medium-right: var(--margin-medium);
+  --margin-medium-bottom: var(--margin-medium);
+/*LARGE*/
+  --margin-large: 32px;
+  --margin-large-top: var(--margin-large);
+  --margin-large-left: var(--margin-large);
+  --margin-large-right: var(--margin-large);
+  --margin-large-bottom: var(--margin-large);
+}

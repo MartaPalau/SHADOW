@@ -1,0 +1,20 @@
+.content__left--name{
+    height: 40px;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+.content__left--icons {
+    background-color: var(--color-white);
+    border-radius: 20px;
+    border: 2px solid var(--color-lightgrey);
+    padding: 3px;
+    font-size: 12px;
+    height: 12px;
+}
+.content__right--icons{
+    width: 30px;
+    background-color: rgba(205, 205, 205, .3);
+    height: 100%;
+}

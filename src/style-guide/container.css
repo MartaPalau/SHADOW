@@ -1,0 +1,5 @@
+[wrap]{
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}

@@ -6,9 +6,16 @@ customElements.define('af-bed', class extends HTMLElement {
         const shadowRoot = this.attachShadow({mode: 'open'});
         shadowRoot.innerHTML = `
         <style>
-            :host{
-                @apply --bed;
-            }
+            :host([bed]){
+                max-width:203px;
+                flex-basis: 17% !important;
+                -webkit-flex-basis: 17% !important;
+                font-size:var(--font14);
+                box-shadow: 0 0 var(--shadow-medium-radius) 0 rgba(0,0,0, 0.3);
+                font-family: var(--font-condensed),sans-serif;
+                margin-right:var(--margin-medium-right);
+                margin-bottom:var(--margin-medium-bottom);
+                }
             .bed:hover{
                     background-color: var(--color-minor2-lighten);
                     cursor:pointer;
@@ -16,18 +23,9 @@ customElements.define('af-bed', class extends HTMLElement {
             .bed--selected{
                     background-color: var(--color-lightgrey-soft);
                 }
-            .bed__icon__background {
-                    position: absolute;
-                    z-index: 0;
-                    opacity: 0.2;
-                    font-size: 77px;
-                    margin-left: 82px;
-                    margin-top: 42px;
-                    color: var(--color-lightgrey);
-                }
         </style>
             <div class="bed">
-                <af-icon class="bed__icon__background bed__icon--background01"></af-icon>
+                <af-icon bed__bg__icon icon__female></af-icon>
                 <slot></slot>
             </div>
 	`;

@@ -94,17 +94,17 @@ customElements.define('af-content', class extends HTMLElement {
                                 <af-horizontal>
                                     <div margin__small--left margin__small--right class="content__left--icons">
                                         <slot name="content__left--icon01">
-                                            <af-icon class="content__left--icon01"></af-icon>
+                                            <af-icon icon__intolerances></af-icon>
                                         </slot>
                                     </div>
                                     <div margin__small--right class="content__left--icons">
                                         <slot name="content__left--icon02">
-                                            <af-icon class="content__left--icon02"></af-icon>
+                                            <af-icon icon__allergies></af-icon>
                                         </slot>
                                     </div>
                                     <div margin__small--right class="content__left--icons">
                                         <slot name="content__left--icon03">
-                                            <af-icon class="content__left--icon03"></af-icon>
+                                            <af-icon icon__join></af-icon>
                                         </slot>
                                     </div>
                                 </af-horizontal>
@@ -116,13 +116,13 @@ customElements.define('af-content', class extends HTMLElement {
                     <div class="content__right--icons">
                         <af-vertical>
                                 <div margin__small--left margin__small--bottom pad__small--top>
-                                    <slot name="content__right--icon01"><af-icon class="content__right--icon01"></af-icon></slot>
+                                    <slot name="content__right--icon01"><af-icon icon__chat></af-icon></slot>
                                 </div>
                                 <div margin__small--left margin__small--bottom>
-                                    <slot name="content__right--icon02"><af-icon class="content__right--icon02"></af-icon></slot>
+                                    <slot name="content__right--icon02"><af-icon icon__xray></af-icon></slot>
                                 </div>
                                 <div margin__small--left margin__small--bottom>
-                                    <slot name="content__right--icon03"><af-icon class="content__right--icon03"></af-icon></slot>
+                                    <slot name="content__right--icon03"><af-icon icon__lab></af-icon></slot>
                                 </div>
                         </af-vertical>
                     </div>

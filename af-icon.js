@@ -6,36 +6,52 @@ customElements.define('af-icon', class extends HTMLElement {
         <style>
             :host{
                 @apply --icons;
+                font-family: 'icons' !important;
+                font-style: normal;
+                font-weight: normal;
+                font-variant: normal;
+                text-transform: none;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
             }
-            :host(.bed__icon--background01):before{
-                content: var(--bed-icon-background01);
+            :host([bed__bg__icon]) {
+                    position: absolute;
+                    z-index: 0;
+                    opacity: 0.2;
+                    font-size: 77px;
+                    margin-left: 82px;
+                    margin-top: 42px;
+                    color: var(--color-lightgrey);
             }
-            :host(.header__status--icon01):before {
-                    content: var(--header-status-icon01);
+            :host([icon__female]):before{
+                content: var(--icon__female);
+            }
+            :host([icon__bed]):before {
+                    content: var(--icon__bed);
                 }
-            :host(.content__left--icon01):before {
-                content: var(--content-left-icon01);
+            :host([icon__allergies]):before {
+                content: var(--icon__allergies);
             }
-            :host(.content__left--icon02):before {
-                content: var(--content-left-icon02);
+            :host([icon__intolerances]):before {
+                content: var(--icon__intolerances);
             }
-            :host(.content__left--icon03):before {
-                content: var(--content-left-icon03);
+            :host([icon__join]):before {
+                content: var(--icon__join);
             }
-            :host(.content__right--icon01):before {
-                content: var(--content-right-icon01);
+            :host([icon__chat]):before {
+                content: var(--icon__chat);
             }
-            :host(.content__right--icon02):before {
-                content: var(--content-right-icon02);
+            :host([icon__xray]):before {
+                content: var(--icon__xray);
             }
-            :host(.content__right--icon03):before {
-                content: var(--content-right-icon03);
+            :host([icon__lab]):before {
+                content: var(--icon__lab);
             }
-            :host(.footer__right--icon01):before {
-                content: var(--content-right-icon01);
+            :host([icon__treatment]):before {
+                content: var(--icon__treatment);
             }
-            :host(.footer__right--icon02):before {
-                content: var(--content-right-icon02);
+            :host([icon__medication]):before {
+                content: var(--icon__medication);
             }
         </style>
         <slot></slot>`

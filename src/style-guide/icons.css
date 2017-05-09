@@ -1,22 +1,13 @@
 :root{
-    --bed-icon-background01:"\e9ab";
-    --header-status-icon01:"\e91f";
-    --content-left-icon01:"\e94a";
-    --content-left-icon02:"\e9e4";
-    --content-left-icon03:"\ea34";
-    --content-right-icon01:"\e93d";
-    --content-right-icon02:"\eae5";
-    --content-right-icon03:"\e9e8";
-    --footer-right-icon01:"\eaf1";
-    --footer-right-icon02:"\ea12";
-    --icons:{
-         font-family: 'icons' !important;
-         font-style: normal;
-         font-weight: normal;
-         font-variant: normal;
-         text-transform: none;
-         -webkit-font-smoothing: antialiased;
-         -moz-osx-font-smoothing: grayscale;
-     };
+    --icon__female:"\e9ab";
+    --icon__bed:"\e91f";
+    --icon__allergies:"\e94a";
+    --icon__intolerances:"\e9e4";
+    --icon__join:"\ea34";
+    --icon__chat:"\e93d";
+    --icon__xray:"\eae5";
+    --icon__lab:"\e9e8";
+    --icon__treatment:"\eaf1";
+    --icon__medication:"\ea12";
 }
 

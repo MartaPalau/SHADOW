@@ -20,9 +20,6 @@ customElements.define('af-bed', class extends HTMLElement {
                     background-color: var(--color-minor2-lighten);
                     cursor:pointer;
                 }
-            .bed--selected{
-                    background-color: var(--color-lightgrey-soft);
-                }
         </style>
             <div class="bed">
                 <af-icon bed__bg__icon icon__female></af-icon>

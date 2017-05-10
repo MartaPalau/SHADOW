@@ -6,52 +6,41 @@ customElements.define('af-footer', class extends HTMLElement {
         const shadowRoot = this.attachShadow({mode: 'open'});
         shadowRoot.innerHTML = `
         <style>
-            :host([border__top]){
+            :host([border__top])> .footer{
                 border-top: var(--border-size) solid var(--border-color);
             }
             .footer__left{
-                margin-left:var(--margin-small-left);
-                margin-top:var(--margin-small-top);
+                padding:var(--pad-small)
             }
-            .footer__left__professional{
-                margin-top: var(--margin-small);
+            .footer__left--condensed{
                 font-family: var(--font-condensed),sans-serif;
                 }
-            .footer__left__service{
+            .footer__left--italic{
                 font-family: var(--font-italic),sans-serif;
                 }
             .footer__right{
-                width: 30px;
+                width: 14px;
                 background-color: rgba(205, 205, 205, .3);
-                height: 100%;
+                padding:var(--pad-small);
                 }
-            .footer__right__top{
-                padding-top:var(--pad-small-top);
-                margin-bottom:var(--margin-small-bottom);
-                margin-left:var(--margin-small-left);
-                }
-            .footer__right__bottom{
-                margin-left:var(--margin-small-left);
-            }
         </style>
         <slot></slot>
-        <af-horizontal>
+        <af-horizontal class="footer">
+
             <af-one class="footer__left">
-                <div class="footer__left__professional">
-                    <slot name="footer__left__professional">Dr.Juan Roca</slot>
-                </div>
-                <div class="footer__left__service">
-                    <slot name="footer__left__service">General</slot>
-                </div>
+                <div class="footer__left--condensed">Dr.Juan Roca</div>
+                <div class="footer__left--italic">General</div>
             </af-one>
-            <af-none class="footer__right">
-                <div class="footer__right__top">
-                    <slot name="footer__right__top"><af-icon icon__treatment></af-icon></slot>
-                </div>
-                <div class="footer__right__bottom">
-                    <slot name="footer__right__bottom"><af-icon icon__medication></af-icon></slot>
-                </div>
-            </af-none>
+
+            <af-vertical class="footer__right">
+                <af-one>
+                    <af-icon icon__treatment></af-icon>
+                </af-one>
+                <af-one>
+                    <af-icon icon__medication></af-icon>
+                </af-one>
+            </af-vertical>
+
         </af-horizontal>
 	`;
     }

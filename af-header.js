@@ -8,35 +8,30 @@ customElements.define('af-header', class extends HTMLElement {
         <style>
             .header__top{
                     background-color:var(--color-lightgrey);
-                    width:100%;
-                    padding: 2px 0 2px 2px;
+                    padding:var(--pad-tiny);
+                    color: var(--color-white);
                 }
-            .header__top__name{
-                margin-right:var(--margin-small-right);
+            .header__top--bold-condensed{
                 font-family: var(--font-bold-condensed),sans-serif;
-                color: var(--color-white);
-                font-size:var(--font14);
                 }
             .header__bottom {
-                    padding: 2px 6px;
-                    font-family: var(--font-condensed),sans-serif;
+                    padding:var(--pad-tiny);
+                }
+            .header__bottom--icon{
                     font-size: 24px;
                     color: var(--color-lightgrey);
-                    font-family: var(--font-condensed),sans-serif;
+                    max-height: 22px;
                 }
-        </style>
-                    <div class="header__top">
-                        <span class="header__top__name">
-                            <slot name="header__top__name">119-A</slot>
-                        <span>
-                    </div>
-                    <af-horizontal class="header__bottom">
-                        <af-one></af-one>
-                        <af-none>
-                            <slot name="header__bottom"><af-icon icon__bed></af-icon></slot>
-                        </af-none>
-                    </af-horizontal>
-
+            </style>
+            <div class="header__top">
+                <span class="header__top header__top--bold-condensed">119-A<span>
+            </div>
+            <af-horizontal class="header__bottom">
+                <af-one></af-one>
+                <af-none class="header__bottom header__bottom--icon">
+                    <af-icon icon__bed></af-icon>
+                </af-none>
+            </af-horizontal>
 	`;
     }
 });

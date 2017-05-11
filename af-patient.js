@@ -13,17 +13,16 @@ customElements.define('af-patient', class extends HTMLElement {
                 font-family: var(--font-condensed),sans-serif;
                 }
             .patient__name--valign{
-                    height: 40px;
-                    margin:0 var(--margin-small);
+                height: 40px;
+                padding:0 var(--pad-small);
                 }
             .patient__id{
                 padding:var(--pad-small) 0;
             }
             .patient__flag{
-                margin-right:var(--margin-tiny)
+                padding-right:var(--pad-small)
             }
         </style>
-        <slot></slot>
 
         <af-horizontal>
             <af-none><img src="src/images/patient.svg"></af-none>

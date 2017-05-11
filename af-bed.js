@@ -22,8 +22,10 @@ customElements.define('af-bed', class extends HTMLElement {
                 }
         </style>
             <div class="bed">
+
                 <af-icon bed__bg__icon icon__female></af-icon>
                 <slot></slot>
+
             </div>
 	`;
     }

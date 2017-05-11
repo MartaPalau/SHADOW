@@ -14,11 +14,11 @@ customElements.define('af-patient-requests', class extends HTMLElement {
                     padding: 0 var(--pad-small);
                 }
             .patient__requests__icon {
-               margin-bottom:var(--margin-small);
-                margin-top:var(--margin-small);
+                padding-bottom:var(--pad-small);
+                padding-top:var(--pad-small);
             }
         </style>
-        <slot></slot>
+
         <af-vertical class="patient__requests">
 
             <af-one class="patient__requests__icon">

@@ -23,9 +23,11 @@ customElements.define('af-header', class extends HTMLElement {
                     max-height: 22px;
                 }
             </style>
+
             <div class="header__top">
                 <span class="header__top header__top--bold-condensed">119-A<span>
             </div>
+
             <af-horizontal class="header__bottom">
                 <af-one></af-one>
                 <af-none class="header__bottom header__bottom--icon">

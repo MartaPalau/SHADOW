@@ -9,7 +9,7 @@ customElements.define('af-patient', class extends HTMLElement {
             .patient__name--bold-condensed{
                 font-family: var(--font-bold-condensed),sans-serif;
             }
-            .patient__data--condensed, .{
+            .patient__data--condensed{
                 font-family: var(--font-condensed),sans-serif;
                 }
             .patient__name--valign{

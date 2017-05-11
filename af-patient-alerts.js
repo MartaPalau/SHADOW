@@ -18,6 +18,7 @@ customElements.define('af-patient-alerts', class extends HTMLElement {
                 height: 12px;
             }
         </style>
+        <slot></slot>
 
         <af-horizontal class="patient__alerts">
 

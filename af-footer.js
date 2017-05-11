@@ -24,6 +24,7 @@ customElements.define('af-footer', class extends HTMLElement {
                 padding:var(--pad-small);
                 }
         </style>
+        <slot></slot>
 
         <af-horizontal class="footer">
 

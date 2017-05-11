@@ -10,7 +10,7 @@ customElements.define('af-content', class extends HTMLElement {
                 padding:var(--pad-small);
                 }
         </style>
-
+            <slot></slot>
             <af-horizontal class="content">
 
                 <af-one class="content__left">

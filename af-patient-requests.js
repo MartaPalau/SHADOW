@@ -18,6 +18,7 @@ customElements.define('af-patient-requests', class extends HTMLElement {
                 padding-top:var(--pad-small);
             }
         </style>
+        <slot></slot>
 
         <af-vertical class="patient__requests">
 

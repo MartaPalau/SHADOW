@@ -23,6 +23,7 @@ customElements.define('af-header', class extends HTMLElement {
                     max-height: 22px;
                 }
             </style>
+            <slot></slot>
 
             <div class="header__top">
                 <span class="header__top header__top--bold-condensed">119-A<span>

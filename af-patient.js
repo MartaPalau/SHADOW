@@ -23,6 +23,7 @@ customElements.define('af-patient', class extends HTMLElement {
                 padding-right:var(--pad-small)
             }
         </style>
+        <slot></slot>
 
         <af-horizontal>
             <af-none><img src="src/images/patient.svg"></af-none>

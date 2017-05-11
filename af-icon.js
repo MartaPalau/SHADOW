@@ -5,7 +5,6 @@ customElements.define('af-icon', class extends HTMLElement {
         shadowRoot.innerHTML = `
         <style>
             :host{
-                @apply --icons;
                 font-family: 'icons' !important;
                 font-style: normal;
                 font-weight: normal;

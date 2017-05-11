@@ -9,18 +9,18 @@ customElements.define('af-patient', class extends HTMLElement {
             .patient__name--bold-condensed{
                 font-family: var(--font-bold-condensed),sans-serif;
             }
-            .patient__data--condensed{
-                font-family: var(--font-condensed),sans-serif;
-                }
             .patient__name--valign{
-                height: 40px;
-                padding:0 var(--pad-small);
-                }
+                    height: 40px;
+                    padding:0 var(--pad-small);
+            }
             .patient__id{
-                padding:var(--pad-small) 0;
+                    padding:var(--pad-small) 0;
             }
             .patient__flag{
-                padding-right:var(--pad-small)
+                    padding-right:var(--pad-small)
+            }
+            .patient__data--condensed{
+                    font-family: var(--font-condensed),sans-serif;
             }
         </style>
 

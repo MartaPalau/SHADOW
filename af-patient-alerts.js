@@ -18,25 +18,25 @@ customElements.define('af-patient-alerts', class extends HTMLElement {
                 height: 12px;
             }
         </style>
-        <slot></slot>
 
-        <af-horizontal class="patient__alerts">
+                <af-horizontal class="patient__alerts">
 
-            <af-one>
-                <af-icon icon__intolerances class="patient__alerts__icon"></af-icon>
-            </af-one>
+                    <af-one>
+                        <af-icon icon__intolerances class="patient__alerts__icon"></af-icon>
+                    </af-one>
 
-            <af-one>
-                <af-icon icon__allergies class="patient__alerts__icon"></af-icon>
-            </af-one>
+                    <af-one>
+                        <af-icon icon__allergies class="patient__alerts__icon"></af-icon>
+                    </af-one>
 
-            <af-one>
-                <af-icon icon__join class="patient__alerts__icon"></af-icon>
-            </af-one>
+                    <af-one>
+                        <af-icon icon__join class="patient__alerts__icon"></af-icon>
+                    </af-one>
 
-            <af-one></af-one>
+                    <af-one></af-one>
 
-        </af-horizontal>
+                </af-horizontal>
+
 	`;
     }
 });

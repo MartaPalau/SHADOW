@@ -18,21 +18,21 @@ customElements.define('af-patient-requests', class extends HTMLElement {
                 padding-top:var(--pad-small);
             }
         </style>
-        <slot></slot>
 
-        <af-vertical class="patient__requests">
+            <af-vertical class="patient__requests">
 
-            <af-one class="patient__requests__icon">
-                <af-icon icon__chat></af-icon>
-            </af-one>
-            <af-one class="patient__requests__icon">
-                <af-icon icon__xray></af-icon>
-            </af-one>
-            <af-one class="patient__requests__icon">
-                <af-icon icon__lab></af-icon>
-            </af-one>
+                <af-one class="patient__requests__icon">
+                    <af-icon icon__chat></af-icon>
+                </af-one>
+                <af-one class="patient__requests__icon">
+                    <af-icon icon__xray></af-icon>
+                </af-one>
+                <af-one class="patient__requests__icon">
+                    <af-icon icon__lab></af-icon>
+                </af-one>
 
-        </af-vertical>
+            </af-vertical>
+
 
 	`;
     }

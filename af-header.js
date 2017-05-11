@@ -23,20 +23,19 @@ customElements.define('af-header', class extends HTMLElement {
                     max-height: 22px;
                 }
             </style>
-            <slot></slot>
 
-            <div class="header__top">
-                <span class="header__top header__top--bold-condensed">119-A<span>
-            </div>
+                <div class="header__top">
+                    <span class="header__top header__top--bold-condensed">119-A<span>
+                </div>
 
-            <af-horizontal class="header__bottom">
-                <af-one></af-one>
-                <af-none class="header__bottom header__bottom--icon">
-                    <af-icon icon__bed></af-icon>
-                </af-none>
-            </af-horizontal>
-	`;
-    }
+                <af-horizontal class="header__bottom">
+                    <af-one></af-one>
+                    <af-none class="header__bottom header__bottom--icon">
+                        <af-icon icon__bed></af-icon>
+                    </af-none>
+                </af-horizontal>
+
+    `;}
 });
 
 

@@ -24,25 +24,25 @@ customElements.define('af-footer', class extends HTMLElement {
                 padding:var(--pad-small);
                 }
         </style>
-        <slot></slot>
 
-        <af-horizontal class="footer">
+            <af-horizontal class="footer">
 
-            <af-one class="footer__left">
-                <div class="footer__left--condensed">Dr.Juan Roca</div>
-                <div class="footer__left--italic">General</div>
-            </af-one>
+                    <af-one class="footer__left">
+                        <div class="footer__left--condensed">Dr.Juan Roca</div>
+                        <div class="footer__left--italic">General</div>
+                    </af-one>
 
-            <af-vertical class="footer__right">
-                <af-one>
-                    <af-icon icon__treatment></af-icon>
-                </af-one>
-                <af-one>
-                    <af-icon icon__medication></af-icon>
-                </af-one>
-            </af-vertical>
+                    <af-vertical class="footer__right">
+                        <af-one>
+                            <af-icon icon__treatment></af-icon>
+                        </af-one>
+                        <af-one>
+                            <af-icon icon__medication></af-icon>
+                        </af-one>
+                    </af-vertical>
 
-        </af-horizontal>
+            </af-horizontal>
+
 	`;
     }
 });

@@ -10,19 +10,20 @@ customElements.define('af-content', class extends HTMLElement {
                 padding:var(--pad-small);
                 }
         </style>
-            <slot></slot>
-            <af-horizontal class="content">
 
-                <af-one class="content__left">
-                    <af-patient></af-patient>
-                    <af-patient-alerts></af-patient-alerts>
-                </af-one>
+                <af-horizontal class="content">
 
-                <af-none class="content__right">
-                    <af-patient-requests></af-patient-requests>
-                </af-none>
+                    <af-one class="content__left">
+                        <af-patient></af-patient>
+                        <af-patient-alerts></af-patient-alerts>
+                    </af-one>
 
-            </af-horizontal>
+                    <af-none class="content__right">
+                        <af-patient-requests></af-patient-requests>
+                    </af-none>
+
+                </af-horizontal>
+
 	`;
     }
 });

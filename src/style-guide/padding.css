@@ -1,7 +1,16 @@
 :root {
   --pad-none:0;
-  --pad-tiny:2px;
-  --pad-small:8px;
-  --pad-medium:16px;
-  --pad-large: 32px;
+  --pad-tiny:4px;
+  --pad-small:16px;
+  --pad-medium:32px;
+  --pad-large: 64px;
+}
+
+@media only screen and (max-height: 768px) {
+  :root {
+    --pad-tiny:0.2em;
+    --pad-small:0.5em;
+    --pad-medium:0.8em;
+    --pad-large: 0.9em;
+  }
 }

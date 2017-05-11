@@ -7,10 +7,10 @@ customElements.define('af-bed', class extends HTMLElement {
         shadowRoot.innerHTML = `
         <style>
             :host([bed]){
-                max-width:203px;
-                flex-basis: 17% !important;
-                -webkit-flex-basis: 17% !important;
-                font-size:var(--font14);
+                max-width:15%;
+                flex-basis: 15% !important;
+                -webkit-flex-basis: 15% !important;
+                font-size:var(--font-tiny);
                 box-shadow: 0 0 var(--shadow-medium-radius) 0 rgba(0,0,0, 0.3);
                 font-family: var(--font-condensed),sans-serif;
                 margin-right:var(--margin-medium);

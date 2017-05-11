@@ -1,7 +1,16 @@
 :root {
   --margin-none:0;
-  --margin-tiny:2px;
-  --margin-small:8px;
-  --margin-medium:16px;
-  --margin-large: 32px;
+  --margin-tiny:4px;
+  --margin-small:16px;
+  --margin-medium:32px;
+  --margin-large: 64px;
+}
+
+@media only screen and (max-height: 768px) {
+  :root {
+    --margin-tiny:0.2em;
+    --margin-small:0.5em;
+    --margin-medium:0.8em;
+    --margin-large: 0.9em;
+  }
 }

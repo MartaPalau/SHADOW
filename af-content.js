@@ -7,8 +7,8 @@ customElements.define('af-content', class extends HTMLElement {
         shadowRoot.innerHTML = `
         <style>
             .content__left{
-                padding:var(--pad-small);
-                }
+                padding: 0 var(--pad-tiny) var(--pad-small) var(--pad-small);
+            }
         </style>
 
                 <af-horizontal class="content">

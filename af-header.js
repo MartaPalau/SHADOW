@@ -17,7 +17,7 @@ customElements.define('af-header', class extends HTMLElement {
             .header__bottom {
                     padding:var(--pad-tiny);
                 }
-            .header__bottom--icon{
+            .header__bottom__icon{
                     font-size: 24px;
                     color: var(--color-lightgrey);
                     max-height: 22px;
@@ -30,7 +30,7 @@ customElements.define('af-header', class extends HTMLElement {
 
                 <af-horizontal class="header__bottom">
                     <af-one></af-one>
-                    <af-none class="header__bottom header__bottom--icon">
+                    <af-none class="header__bottom header__bottom__icon">
                         <af-icon icon__bed></af-icon>
                     </af-none>
                 </af-horizontal>

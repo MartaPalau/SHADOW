@@ -8,10 +8,8 @@
 
 @media only screen and (max-height: 768px) {
   :root {
-    --font-large: 0.9em;
-    --font-big: 0.9em;
-    --font-medium: 0.9em;
-    --font-small: 0.9em;
+    --font-big: 1.9em;
+    --font-medium: 1em;
     --font-tiny: 0.9em;
   }
 }

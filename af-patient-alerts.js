@@ -13,9 +13,7 @@ customElements.define('af-patient-alerts', class extends HTMLElement {
                 background-color: var(--color-white);
                 border-radius: 20px;
                 border: 2px solid var(--color-lightgrey);
-                padding: 3px;
-                font-size: 12px;
-                height: 12px;
+                padding: var(--pad-tiny);
             }
         </style>
 

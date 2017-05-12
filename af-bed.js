@@ -13,8 +13,8 @@ customElements.define('af-bed', class extends HTMLElement {
                 font-size:var(--font-tiny);
                 box-shadow: 0 0 var(--shadow-medium-radius) 0 rgba(0,0,0, 0.3);
                 font-family: var(--font-condensed),sans-serif;
-                margin-right:var(--margin-medium);
-                margin-bottom:var(--margin-medium);
+                margin-right:var(--margin-large);
+                margin-bottom:var(--margin-large);
                 }
             .bed:hover{
                     background-color: var(--color-hover);

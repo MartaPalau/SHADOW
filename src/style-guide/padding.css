@@ -4,6 +4,7 @@
   --pad-small:16px;
   --pad-medium:32px;
   --pad-large: 64px;
+  --pad-large-icon-bg: 148px;
 }
 
 @media only screen and (max-height: 768px) {
@@ -12,5 +13,6 @@
     --pad-small:0.5em;
     --pad-medium:0.8em;
     --pad-large: 0.9em;
+    --pad-large-icon-bg: 1.2em;
   }
 }

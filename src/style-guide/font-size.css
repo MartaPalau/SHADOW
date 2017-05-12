@@ -1,9 +1,9 @@
 :root {
-  --font-large: 32px;
-  --font-big: 24px;
-  --font-medium: 18px;
-  --font-small: 16px;
-  --font-tiny: 14px;
+  --font-large: 40px;
+  --font-big: 32px;
+  --font-medium: 24px;
+  --font-small: 18px;
+  --font-tiny: 16px;
 }
 
 @media only screen and (max-height: 768px) {

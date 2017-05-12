@@ -18,8 +18,8 @@ customElements.define('af-icon', class extends HTMLElement {
                     z-index: 0;
                     opacity: 0.2;
                     font-size: 77px;
-                    margin-left: 82px;
-                    margin-top: 42px;
+                    padding-left: var(--pad-large-icon-bg);
+                    padding-top: var(--pad-large);
                     color: var(--color-lightgrey);
             }
             :host([icon__female]):before{

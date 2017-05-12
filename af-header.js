@@ -20,7 +20,7 @@ customElements.define('af-header', class extends HTMLElement {
             .header__bottom__icon{
                     font-size: var(--font-big);
                     color: var(--color-lightgrey);
-                    max-height: var(--font-medium);
+                    max-height: var(--font-big);
                 }
             </style>
 

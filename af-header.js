@@ -25,7 +25,7 @@ customElements.define('af-header', class extends HTMLElement {
             </style>
 
                 <div class="header__top">
-                    <span class="header__top header__top--bold-condensed">119-A<span>
+                    <span class="header__top header__top--bold-condensed">119-A</span>
                 </div>
 
                 <af-horizontal class="header__bottom">

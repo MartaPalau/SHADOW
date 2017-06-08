@@ -1,4 +1,5 @@
 :root {
-     --border-size : 1px;
+     --border-small : 1px;
+     --border-medium : 3px;
      --border-radius : 3px;
  }

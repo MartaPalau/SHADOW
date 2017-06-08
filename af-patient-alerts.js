@@ -15,7 +15,15 @@ customElements.define('af-patient-alerts', class extends HTMLElement {
                 border: 2px solid var(--color-lightgrey);
                 padding: var(--pad-tiny);
             }
+            .not__defined .patient__alerts{
+                    height:40px;
+                }
+            .not__defined .patient__alerts af-icon{
+                    display:none;
+                }
         </style>
+
+            <div class="">
 
                 <af-horizontal class="patient__alerts">
 
@@ -35,6 +43,7 @@ customElements.define('af-patient-alerts', class extends HTMLElement {
 
                 </af-horizontal>
 
+            </div>
 	`;
     }
 });

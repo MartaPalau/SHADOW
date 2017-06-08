@@ -2,7 +2,7 @@ customElements.define('af-patient-requests', class extends HTMLElement {
     constructor() {
         super(); // always call super() first in the ctor.
 
-        // Attach a shadow root to <fancy-tabs>.
+        // Attach a shadow root to <af-patient-requests>.
         const shadowRoot = this.attachShadow({mode: 'open'});
         shadowRoot.innerHTML = `
         <style>
@@ -17,21 +17,27 @@ customElements.define('af-patient-requests', class extends HTMLElement {
                 padding-bottom:var(--pad-small);
                 padding-top:var(--pad-small);
             }
+            .not__defined {
+                    display:none;
+            }
         </style>
 
-            <af-vertical class="patient__requests">
 
-                <af-one class="patient__requests__icon">
-                    <af-icon icon__chat></af-icon>
-                </af-one>
-                <af-one class="patient__requests__icon">
-                    <af-icon icon__xray></af-icon>
-                </af-one>
-                <af-one class="patient__requests__icon">
-                    <af-icon icon__lab></af-icon>
-                </af-one>
 
-            </af-vertical>
+                <af-vertical class="patient__requests">
+    
+                    <af-one class="patient__requests__icon">
+                        <af-icon icon__chat></af-icon>
+                    </af-one>
+                    <af-one class="patient__requests__icon">
+                        <af-icon icon__xray></af-icon>
+                    </af-one>
+                    <af-one class="patient__requests__icon">
+                        <af-icon icon__lab></af-icon>
+                    </af-one>
+
+                </af-vertical>
+
 
 
 	`;

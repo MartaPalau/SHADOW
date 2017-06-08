@@ -12,7 +12,7 @@ customElements.define('af-header', class extends HTMLElement {
                     color: var(--color-white);
                 }
             .header__top--bold-condensed{
-                font-family: var(--font-bold-condensed),sans-serif;
+                    font-family: var(--font-bold-condensed),sans-serif;
                 }
             .header__bottom {
                     padding:var(--pad-tiny);
@@ -22,10 +22,36 @@ customElements.define('af-header', class extends HTMLElement {
                     color: var(--color-lightgrey);
                     max-height: var(--font-big);
                 }
+            .not__defined .header__top{
+                    height:20px;
+                    animation-duration: 1s;
+                    animation-name: slidein;
+                    animation-iteration-count: infinite;
+                    animation-direction: alternate;
+                }
+            .not__defined span{
+                    display:none;
+                }
+            .not__defined .header__bottom{
+                    height:30px;
+                }
+            .not__defined .header__bottom__icon{
+                    display:none;
+                }
+            @keyframes slidein {
+                from {
+                     background-color:var(--color-lightgrey);
+                }
+                to {
+                    background-color:var(--color-lightgrey-soft);
+                }
+             }
             </style>
 
+            <div class="header">
+
                 <div class="header__top">
-                    <span class="header__top header__top--bold-condensed">119-A</span>
+                    <span class="header__top--bold-condensed">119-A</span>
                 </div>
 
                 <af-horizontal class="header__bottom">
@@ -35,6 +61,7 @@ customElements.define('af-header', class extends HTMLElement {
                     </af-none>
                 </af-horizontal>
 
+            </div>
     `;}
 });
 

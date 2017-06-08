@@ -17,8 +17,11 @@ customElements.define('af-bed', class extends HTMLElement {
                 margin-bottom:var(--margin-large);
                 }
             .bed:hover{
-                    background-color: var(--color-hover);
-                    cursor:pointer;
+                background-color: var(--color-hover);
+                cursor:pointer;
+                }
+            .not__defined [bed__bg__icon]{
+                    display:none;
                 }
         </style>
             <div class="bed">

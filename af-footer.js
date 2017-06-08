@@ -7,7 +7,7 @@ customElements.define('af-footer', class extends HTMLElement {
         shadowRoot.innerHTML = `
         <style>
             :host([border__top])> .footer{
-                border-top: var(--border-size) solid var(--border-color);
+                border-top: var(--border-small) solid var(--border-color);
             }
             .footer__left{
                 padding:var(--pad-small)
@@ -23,13 +23,37 @@ customElements.define('af-footer', class extends HTMLElement {
                 background-color: rgba(205, 205, 205, .3);
                 padding:var(--pad-small);
                 }
+            .not__defined .footer__right{
+                    display:none;
+                }
+            .not__defined span{
+                    display:none;
+                }
+            .not__defined .footer__left--condensed, .not__defined .footer__left--italic{
+                    height:10px;
+                    width:100px;
+                    margin-bottom:var(--margin-small);
+                    animation-duration: 1s;
+                    animation-name: slidein;
+                    animation-iteration-count: infinite;
+                    animation-direction: alternate;
+                }
+             @keyframes slidein {
+                from {
+                    background-color:var(--color-lightgrey);
+                }
+                to {
+                    background-color:var(--color-lightgrey-soft);
+                }
+             }
         </style>
+
 
             <af-horizontal class="footer">
 
                     <af-one class="footer__left">
-                        <div class="footer__left--condensed">Dr.Juan Roca</div>
-                        <div class="footer__left--italic">General</div>
+                        <div class="footer__left--condensed"><span>Dr.Juan Roca</span></div>
+                        <div class="footer__left--italic"><span>General<span></div>
                     </af-one>
 
                     <af-vertical class="footer__right">

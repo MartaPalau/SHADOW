@@ -2,7 +2,7 @@ customElements.define('af-footer', class extends HTMLElement {
     constructor() {
         super(); // always call super() first in the ctor.
 
-        // Attach a shadow root to <fancy-tabs>.
+        // Attach a shadow root to <af-footer>.
         const shadowRoot = this.attachShadow({mode: 'open'});
         shadowRoot.innerHTML = `
         <style>

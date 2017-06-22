@@ -22,7 +22,7 @@ customElements.define('af-patient', class extends HTMLElement {
             .patient__data--condensed{
                     font-family: var(--font-condensed),sans-serif;
             }
-            .not__defined .patient__img img{
+           /* .not__defined .patient__img img{
                     display:none;
             }
             .not__defined .patient__img{
@@ -73,7 +73,7 @@ customElements.define('af-patient', class extends HTMLElement {
                     to {
                         background-color:var(--color-lightgrey-soft);
                     }
-            }
+            }*/
         </style>
 
             <div class="">

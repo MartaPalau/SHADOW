@@ -29,7 +29,7 @@ customElements.define('af-header', class extends HTMLElement {
                     animation-iteration-count: infinite;
                     animation-direction: alternate;
                 }
-            .not__defined span{
+            /*.not__defined span{
                     display:none;
                 }
             .not__defined .header__bottom{
@@ -45,7 +45,7 @@ customElements.define('af-header', class extends HTMLElement {
                 to {
                     background-color:var(--color-lightgrey-soft);
                 }
-             }
+             }*/
             </style>
 
             <div class="header">

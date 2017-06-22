@@ -17,9 +17,9 @@ customElements.define('af-patient-requests', class extends HTMLElement {
                 padding-bottom:var(--pad-small);
                 padding-top:var(--pad-small);
             }
-            .not__defined {
+            /*.not__defined {
                     display:none;
-            }
+            }*/
         </style>
 
 

@@ -23,7 +23,7 @@ customElements.define('af-footer', class extends HTMLElement {
                 background-color: rgba(205, 205, 205, .3);
                 padding:var(--pad-small);
                 }
-            .not__defined .footer__right{
+           /* .not__defined .footer__right{
                     display:none;
                 }
             .not__defined span{
@@ -45,7 +45,7 @@ customElements.define('af-footer', class extends HTMLElement {
                 to {
                     background-color:var(--color-lightgrey-soft);
                 }
-             }
+             }*/
         </style>
 
 

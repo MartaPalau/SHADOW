@@ -22,58 +22,6 @@ customElements.define('af-patient', class extends HTMLElement {
             .patient__data--condensed{
                     font-family: var(--font-condensed),sans-serif;
             }
-           /* .not__defined .patient__img img{
-                    display:none;
-            }
-            .not__defined .patient__img{
-                    border-radius:20px;
-                    height:35px;
-                    width:35px;
-                    animation-duration: 1s;
-                    animation-name: slidein;
-                    animation-iteration-count: infinite;
-                    animation-direction: alternate;
-            }
-            .not__defined .patient__name{
-                    height:13px;
-                    width:110px;
-                    animation-duration: 1s;
-                    animation-name: slidein;
-                    animation-iteration-count: infinite;
-                    animation-direction: alternate;
-                }
-            .not__defined .patient__id {
-                    height:10px;
-                    width:110px;
-                    margin-bottom:var(--margin-small);
-                    padding:var(--pad-none);
-                    animation-duration: 1s;
-                    animation-name: slidein;
-                    animation-iteration-count: infinite;
-                    animation-direction: alternate;
-                }
-            .not__defined .patient__data {
-                    height:10px;
-                    width:110px;
-                    animation-duration: 1s;
-                    animation-name: slidein;
-                    animation-iteration-count: infinite;
-                    animation-direction: alternate;
-                }
-            .not__defined .patient__flag {
-                   display:none;
-                }
-            .not__defined span{
-                    display:none;
-                }
-            @keyframes slidein {
-                    from {
-                        background-color:var(--color-lightgrey);
-                    }
-                    to {
-                        background-color:var(--color-lightgrey-soft);
-                    }
-            }*/
         </style>
 
             <div class="">

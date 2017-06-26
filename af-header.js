@@ -22,30 +22,6 @@ customElements.define('af-header', class extends HTMLElement {
                     color: var(--color-lightgrey);
                     max-height: var(--font-big);
                 }
-            .not__defined .header__top{
-                    height:20px;
-                    animation-duration: 1s;
-                    animation-name: slidein;
-                    animation-iteration-count: infinite;
-                    animation-direction: alternate;
-                }
-            /*.not__defined span{
-                    display:none;
-                }
-            .not__defined .header__bottom{
-                    height:30px;
-                }
-            .not__defined .header__bottom__icon{
-                    display:none;
-                }
-            @keyframes slidein {
-                from {
-                     background-color:var(--color-lightgrey);
-                }
-                to {
-                    background-color:var(--color-lightgrey-soft);
-                }
-             }*/
             </style>
 
             <div class="header">

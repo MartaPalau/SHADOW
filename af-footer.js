@@ -23,29 +23,6 @@ customElements.define('af-footer', class extends HTMLElement {
                 background-color: rgba(205, 205, 205, .3);
                 padding:var(--pad-small);
                 }
-           /* .not__defined .footer__right{
-                    display:none;
-                }
-            .not__defined span{
-                    display:none;
-                }
-            .not__defined .footer__left--condensed, .not__defined .footer__left--italic{
-                    height:10px;
-                    width:100px;
-                    margin-bottom:var(--margin-small);
-                    animation-duration: 1s;
-                    animation-name: slidein;
-                    animation-iteration-count: infinite;
-                    animation-direction: alternate;
-                }
-             @keyframes slidein {
-                from {
-                    background-color:var(--color-lightgrey);
-                }
-                to {
-                    background-color:var(--color-lightgrey-soft);
-                }
-             }*/
         </style>
 
 

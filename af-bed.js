@@ -20,9 +20,6 @@ customElements.define('af-bed', class extends HTMLElement {
                 background-color: var(--color-hover);
                 cursor:pointer;
                 }
-            /*.not__defined [bed__bg__icon]{
-                    display:none;
-                }*/
         </style>
             <div class="bed">
 
